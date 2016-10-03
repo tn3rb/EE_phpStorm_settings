@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="http://schema.org/Place" />
+    <ignored-resource url="http://schema.org/PostalAddress" />
+  </component>
+</application>

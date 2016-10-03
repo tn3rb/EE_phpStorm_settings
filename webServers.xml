@@ -1,0 +1,74 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO">
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="03d07710-5f6a-4bea-8f45-91b2ec6c8a6b" name="Site Simple" url="http://localhost/SiteSimple/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="c828ef84-1275-4ec5-8901-4ed8f7661409" name="ee4.dev" url="http://www.ee56.dev/">
+        <fileTransfer mountedRoot="D:\WampDeveloper\Websites\www.ee56.dev\src" accessType="MOUNT" />
+      </webServer>
+      <webServer id="0a805d52-0984-4cd7-9246-d66da5770f0f" name="devbox.eventespresso.com" url="http://devbox.eventespresso.com">
+        <fileTransfer host="104.131.38.235" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eeliveadmin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9a3816e2-a7c1-494f-85a3-22567efadf41" name="brent.eventespresso.com" url="http://brent.eventespresso.com">
+        <fileTransfer host="104.131.38.235" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eeliveadmin/www/brent" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9d9bae18-a0b4-4e5c-96b5-4c0295e7eaf6" name="Laravel" url="http://laravel.dev/">
+        <fileTransfer mountedRoot="C:\WP\www\laravel.dev" accessType="MOUNT" />
+      </webServer>
+      <webServer id="7b938316-e09e-4be8-b079-06b814104496" name="web1.demoeeserver" url="http://45.55.145.151">
+        <fileTransfer host="45.55.145.151" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eventespresso" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="39c170a7-4d24-4784-841f-97af0a9eaae9" name="web1.eventsmart.com" url="http://eventsmart.com">
+        <fileTransfer host="104.236.18.85" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eventsmart" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="288a934a-91f4-46be-8ad6-848d031de4cc" name="db1.eventsmart.com" url="http://104.131.80.208">
+        <fileTransfer host="104.131.80.208" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eventsmart" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="26ebe49d-0a8e-421f-a982-17f628026a27" name="lb.eventsmart.com" url="http://eventsmart.com">
+        <fileTransfer host="104.131.56.17" port="22" privateKey="C:\Users\Daddylicious\.ssh\id_rsa" rootFolder="/home/eventsmart" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="531602ea-d1e1-4e42-9655-35a63ce86285" name="ddd" url="http://www.ddd.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAABoB/AcwyYeGnDh3WTU73lCMPonwhekAFfXMOr0PvGVaAeQtpkhAZVqGBeYsGCJ3+StUNdmrP35u5N8uU9GLBI+1b6kLgsnF1ifMmk8xVlK6BBEoYI/KGS7p/A9ZsXAz1HLi4IXo0IQKO8wABrsV3BGNA08TwWFFfWQVuOzoTFekFCI//2/u3xD2GAjEtm9AlGYkmKzq/C2DWoIzaEcErsdT1i577mYogG90YRyQQOA1Tweg3vDwjFdCRtZOnnBmDGzX/7jYoSL0Jti+bHBRva/qrnMY+ppzhWqZXs2U/32HLjy44QlruUiK0KfwwjgKl5qdjE94Gs/PV5OZQSrgEc0F/JuIHk374ddVyFh5Z0ArPQh+FEY88Yp8AvNrFX1cRa4UcxdCcbfelD0fBNZULpDps5UsydyYQCgctXCTBrj7PJlvpc8b3/qUWL8MgsvGV9LlSiiY4FsK3xlQKISt0qv6XftQgJ3iqA/GaGR0ijbjF5LOZ++iIq1coAcASN7ksDjJymfLQEASxJjS5Pm3/XjwrBDI4BeCKOhHBQcgbbM4AXwKV/bKrP3f+h1Ycv5BAaVQ==</data>
+  </component>
+</application>

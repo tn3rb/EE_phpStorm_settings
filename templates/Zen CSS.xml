@@ -1,0 +1,13 @@
+<templateSet group="Zen CSS">
+  <template name="box" value="-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */&#10;-moz-box-sizing: border-box;    /* Firefox, other Gecko */&#10;box-sizing: border-box; " description="CSS box-sizing rules" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="w:a" value="width:auto;" description="width:auto;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

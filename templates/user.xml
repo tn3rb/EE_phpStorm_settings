@@ -1,0 +1,76 @@
+<templateSet group="user">
+  <template name="test" value="###testing&#10;* **Git branch to pull:**  &#10; * **summary of changes:**  &#10; * **scope of work/plugin to test:**  &#10; * **specific results to look for:**&#10;&#9;* **live server required:**  &#10; * **cross-browser js/css testing:**  &#10; * **SSL required:**  " description="test text for codebase" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ue" value="echo &quot;\n XXXXXXXX: &quot; . $XXXXXXXXXX . &quot;\n&quot;;&#10;" description="unit test echo var" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="ut" value="echo &quot;\n\n xxxxxxxxxxxxxxxxxxxxxxxx: \n&quot;;&#10;&#10;" description="unit test title" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="um" value="echo &quot;\n\n &quot; . __LINE__ . &quot;) &quot; . __METHOD__ . &quot;() \n&quot;;&#10;&#10;&#10;" description="unit test method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="ee" value="echo 'XXXXXXXX: ' . $XXXXXXXXXX . &quot;&lt;br /&gt;&quot;;" description="easy echo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="tryct" value="try {&#10;&#9;//&#10;} catch ( Exception $e ) {&#10;&#9;EE_Error::add_error( $e-&gt;getMessage(), __FILE__, __FUNCTION__, __LINE__ );&#10;}&#10;" description="try catch block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="dunno" value="¯\_(⊙_ʖ⊙)_/¯" description="dunno" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="trx" value="throw new EE_Error(&#10;&#9;__( 'XXXXXXXXXXXXXXXXXXXXX', 'event_espresso' )&#10;);&#10;" description="throw new Exception" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ucs" value="&#9;&#9;echo &quot;\n&quot; . __LINE__ . &quot;) &quot; . get_class( $xxxxxxxxxxxxxxxx ) . &quot; : &quot; . spl_object_hash( $xxxxxxxxxxxxxxxx ) . &quot;\n&quot;;&#10;&#10;" description="unit tests class &amp;&amp; spl object hash" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="uv" value="&#9;echo &quot;\n\n &quot; . __LINE__ . &quot;) &quot; . __METHOD__ . '() : xxxxxxxxxxxxxxxx' . &quot;\n&quot;;&#10;&#9;var_dump( $xxxxxxxxxxxxxxxx );&#10;" description="vardump" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="ump" value="echo &quot;\n &quot; . __LINE__ . &quot;) &quot; . str_pad( &quot; &quot; . __METHOD__ . &quot;() &quot;, 60, &quot;*&quot;, STR_PAD_BOTH ) . &quot;\n&quot;;" description="unit test method with strpad()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="echo &quot;\n &quot; . __LINE__ . &quot;) &quot; . str_pad( &quot; &quot; . __METHOD__ . &quot;() &quot;, 60, &quot;*&quot;, STR_PAD_BOTH ) . &quot;\n&quot;;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>

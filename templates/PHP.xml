@@ -1,0 +1,61 @@
+<templateSet group="PHP">
+  <template name="ev" value="echo '&lt;h5 style=&quot;color:#2EA2CC;&quot;&gt;XXXXXXXXXX : &lt;span style=&quot;color:#E76700&quot;&gt;' . $XXXXXXXXXX . '&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-size:9px;font-weight:normal;color:#666&quot;&gt;' . __FILE__ . '&lt;/span&gt;    &lt;b style=&quot;font-size:10px;color:#333&quot;&gt;  ' . __LINE__ . ' &lt;/b&gt;&lt;/h5&gt;';" description="echo var for debugging" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="\EEH_Debug_Tools::printr( $XXXXXXX, 'XXXXXXX', __FILE__, __LINE__ );" description="printr for debugging" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="in" value="echo '&lt;h3 style=&quot;color:#E76700;line-height:1em;&quot;&gt;XXXXXXXXXXXXXXXX&lt;br/&gt;&lt;span style=&quot;font-size:9px;font-weight:normal;color:#666&quot;&gt;' . __FILE__ . '&lt;/span&gt;    &lt;b style=&quot;font-size:10px;color:#333&quot;&gt;  ' . __LINE__ . ' &lt;/b&gt;&lt;/h3&gt;';" description="debugging marker" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="lq" value="echo '&lt;h4&gt;' . $wpdb-&gt;last_query . '  &lt;br /&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;&quot;&gt;' . __FILE__ . '&lt;br /&gt;line no: ' . __LINE__ . '&lt;/span&gt;&lt;/h4&gt;';" description="last WP query" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="\EEH_Debug_Tools::printr( __FUNCTION__, __CLASS__, __FILE__, __LINE__, 2 );&#10;&#10;" description="debug class, function, file, &amp; line #" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pto" value="echo '&lt;h3&gt;$XXXXXXXX&lt;/h3&gt;&lt;pre style=&quot;height:auto;border:2px solid lightblue;&quot;&gt;' . print_r( $XXXXXXXX, TRUE ) . '&lt;/pre&gt;&lt;br /&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;&quot;&gt;' . __FILE__ . '&lt;br /&gt;line no: ' . __LINE__ . '&lt;/span&gt;';" description="print_r Old Skool" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="trn" value="__( 'XXXXXXXXXXXX', 'event_espresso' )" description="WP translatable string" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="file" value="echo '&lt;br/&gt;&lt;h6 style=&quot;color:#2EA2CC;&quot;&gt;'. __FILE__ . ' &amp;nbsp; &lt;span style=&quot;font-weight:normal;color:#E76700&quot;&gt; Line #: ' . __LINE__ . '&lt;/span&gt;&lt;/h6&gt;';" description="debugging file and line #" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tru" value="true" description="boolean TRUE" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="fals" value="false" description="boolean FALSE" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="debug_ipn" value="&#9;&#9;&#9;// DEBUG&#10;&#9;&#9;&#9;$DEBUG_7631 = get_option( 'EE_DEBUG_7631', array() );&#10;&#9;&#9;&#9;$microtime = microtime();&#10;&#9;&#9;&#9;if ( ! isset( $DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] )) {&#10;&#9;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] = array();&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] = array();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ ] = __CLASS__ . '::' . __FUNCTION__ . '() ' . __LINE__;&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'IPN' ] = $IPN;&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'PAY_ID' ] = $payment-&gt;ID();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'PAY_status' ] = $payment-&gt;status();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_status' ] = $transaction-&gt;status_ID();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_paid' ] = $transaction-&gt;paid();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_reg_steps' ] = $transaction-&gt;reg_steps();&#10;&#9;&#9;&#9;update_option( 'EE_DEBUG_7631', $DEBUG_7631 );&#10;&#9;&#9;&#9;// DEBUG&#10;" description="saves IPN debug data to the wp-options" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="echo '&lt;br&gt;&lt;pre style=&quot;margin-left:180px;&quot;&gt;';&#10;echo 'xxxxxxxxxxxxxx:&lt;br&gt;';&#10;var_dump($xxxxxxxxxxxxx);&#10;echo '&lt;/pre&gt;';&#10;" description="vardump" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="md" value="echo &quot;&lt;h3&gt;&quot; . __LINE__ . &quot;) &quot; . __METHOD__ . &quot;()&lt;/h3&gt;&quot;;" description="method" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

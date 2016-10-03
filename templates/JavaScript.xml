@@ -1,0 +1,12 @@
+<templateSet group="JavaScript">
+  <template name="al" value="alert( 'XXXXX = ' + XXXXX + '\n' + 'XXXXX = ' + XXXXX );" description="JS alert for debugging" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="console" value="console.log( JSON.stringify( 'XXXXXXXX: ' + XXXXXXXX, null, 4 ));" description="output to console for debugging" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
