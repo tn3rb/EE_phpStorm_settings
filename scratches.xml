@@ -7,6 +7,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.md" value="Markdown" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.php" value="PHP" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" value="MySQL" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="PHP" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.es6" value="ECMAScript 6" />
