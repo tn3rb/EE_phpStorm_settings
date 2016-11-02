@@ -14,6 +14,9 @@
     <interpreters>
       <interpreter home="D:\WampDeveloper\Components\Php\php.exe" id="522ca234-5dd3-4fd7-879e-1645cdf4f36b" name="PHP 7" debugger_id="php.debugger.XDebug" />
       <interpreter home="D:\WampDeveloper\Versions\Php\php-5.6.12.0-r1-win32-vc11-standard\php.exe" id="f31e6551-8dc6-48df-8065-93e036a6ec09" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="vagrant://D:\VagrantVV/usr/bin/php" id="5b30d1a0-18c5-4c61-8463-e654528da633" name="Remote PHP" debugger_id="php.debugger.XDebug">
+        <remote_data VAGRANT_FOLDER="D:\VagrantVV" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" />
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
