@@ -39,12 +39,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="tru" value="true" description="boolean TRUE" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="fals" value="false" description="boolean FALSE" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="tru" value="true" description="boolean TRUE" toReformat="true" toShortenFQNames="true" />
+  <template name="fals" value="false" description="boolean FALSE" toReformat="true" toShortenFQNames="true" />
   <template name="debug_ipn" value="&#9;&#9;&#9;// DEBUG&#10;&#9;&#9;&#9;$DEBUG_7631 = get_option( 'EE_DEBUG_7631', array() );&#10;&#9;&#9;&#9;$microtime = microtime();&#10;&#9;&#9;&#9;if ( ! isset( $DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] )) {&#10;&#9;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] = array();&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ] = array();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ ] = __CLASS__ . '::' . __FUNCTION__ . '() ' . __LINE__;&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'IPN' ] = $IPN;&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'PAY_ID' ] = $payment-&gt;ID();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'PAY_status' ] = $payment-&gt;status();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_status' ] = $transaction-&gt;status_ID();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_paid' ] = $transaction-&gt;paid();&#10;&#9;&#9;&#9;$DEBUG_7631[ $transaction-&gt;ID() ][ $microtime ][ 'TXN_reg_steps' ] = $transaction-&gt;reg_steps();&#10;&#9;&#9;&#9;update_option( 'EE_DEBUG_7631', $DEBUG_7631 );&#10;&#9;&#9;&#9;// DEBUG&#10;" description="saves IPN debug data to the wp-options" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
@@ -55,7 +51,5 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="md" value="echo &quot;&lt;h3&gt;&quot; . __LINE__ . &quot;) &quot; . __METHOD__ . &quot;()&lt;/h3&gt;&quot;;" description="method" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="md" value="echo &quot;&lt;h3&gt;&quot; . __LINE__ . &quot;) &quot; . __METHOD__ . &quot;()&lt;/h3&gt;&quot;;" description="method" toReformat="true" toShortenFQNames="true" />
 </templateSet>
