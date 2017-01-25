@@ -1,6 +1,7 @@
 <application>
   <component name="UISettings">
     <option name="FONT_FACE" value="Microsoft JhengHei" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
     <option name="EDITOR_TAB_LIMIT" value="25" />
     <option name="ANIMATE_WINDOWS" value="false" />
     <option name="HIDE_TOOL_STRIPES" value="false" />

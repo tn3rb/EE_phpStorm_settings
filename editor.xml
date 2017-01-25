@@ -2,21 +2,14 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
+    <option name="CUSTOM_SOFT_WRAP_INDENT" value="4" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="c4d7e7" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="true" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="c4d7e7" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="ff" />
-    </pattern>
+    <pattern case-sensitive="true" pattern="\btodo\b.*" />
+    <pattern case-sensitive="true" pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
