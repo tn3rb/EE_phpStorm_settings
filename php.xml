@@ -862,4 +862,9 @@
   <component name="PhpSmartKeysConfiguration">
     <option name="smartFunctionParametersCompletion" value="true" />
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="5b30d1a0-18c5-4c61-8463-e654528da633" load_method="PHPUNIT_PHAR" bootstrap_file_path="D:\VagrantVV\www\wordpress-develop\tests\phpunit\includes\bootstrap.php" configuration_file_path="D:\VagrantVV\www\wordpress-develop\phpunit.xml.dist" custom_loader_path="D:\VagrantVV\config\composer.phar" phpunit_phar_path="/vagrant/www/wordpress-default/phpunit/phpunit.phar" use_bootstrap_file="true" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </application>
