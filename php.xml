@@ -7,7 +7,7 @@
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration tool_path="G:\WP\vendor\bin\phpcs.batX" />
+      <PhpCSConfiguration tool_path="C:\vvv\www\phpcs\scripts\phpcs.bat" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
@@ -801,7 +801,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="5b30d1a0-18c5-4c61-8463-e654528da633" load_method="PHPUNIT_PHAR" bootstrap_file_path="/srv/www/wordpress-default/tests/phpunit/includes/bootstrap.php" configuration_file_path="/srv/www/wordpress-default/phpunit.xml.dist" custom_loader_path="D:\VagrantVV\config\composer.phar" phpunit_phar_path="/srv/www/wordpress-default/phpunit/phpunit.phar" use_bootstrap_file="true" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="5b30d1a0-18c5-4c61-8463-e654528da633" load_method="CUSTOM_LOADER" bootstrap_file_path="/srv/www/wordpress-default/tests/phpunit/includes/bootstrap.php" configuration_file_path="/srv/www/wordpress-default/phpunit.xml.dist" custom_loader_path="D:\VagrantVV\config\composer.phar" phpunit_phar_path="/srv/www/wordpress-default/phpunit/phpunit.phar" use_bootstrap_file="true" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
